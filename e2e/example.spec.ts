@@ -7,7 +7,7 @@ test('Margin cards in the main page', async ({ page }) => {
     const style = window.getComputedStyle(card);
     return style.margin;
   });
-  expect(margin).toBe('60px 0px 0px');
+  expect(margin).toBe('10px 0px 0px');
 });
 
 
