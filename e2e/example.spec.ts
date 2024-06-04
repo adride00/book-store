@@ -25,8 +25,3 @@ test('Margin cards in the main page', async ({ page }) => {
 //   await page.getByRole('button', { name: 'Post Entry' }).click();
   
 // });
-
-// test('Delete books', async ({ page }) => {
-//   await page.goto('http://localhost:5000/');
-//   await page.getByRole('link', { name: 'Delete' }).nth(2).click();
-// });
